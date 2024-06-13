@@ -30,19 +30,16 @@ if cross_road == "left" :
     island_choice = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?\n").lower()
     if island_choice == "yellow":
       print("You win!")
-      exit()
     elif island_choice == "blue":
       print("You are eaten by beasts.\nGame Over.")
-      exit()
     elif island_choice == "red":
       print("You are burned by fire.\nGame Over.")
-      exit()
     else :
       print("Game Over.")
-      exit()
   else : 
     print("You are attacked by Trout.\nGame Over.")
-    exit()
 else:
   print("You fall into a hole.\nGame Over.")
-  exit()
+
+
+exit()
